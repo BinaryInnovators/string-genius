@@ -1,6 +1,6 @@
 {
   "name": "string-genius",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight npm package that generates random strings of specified length. It provides a simple and efficient way to generate random strings containing alphanumeric characters.",
   "main": "index.js",
   "scripts": {
