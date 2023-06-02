@@ -1,37 +1,25 @@
-# random-string-generator
+# string-genius
 
-[![npm version](https://badge.fury.io/js/random-string-generator.svg)](https://badge.fury.io/js/random-string-generator)
+[![npm version](https://badge.fury.io/js/string-genius.svg)](https://badge.fury.io/js/string-genius)
 
-A lightweight npm package that generates random strings of specified length. It provides a simple and efficient way to generate random strings containing alphanumeric characters.
-
-## Features
-
-- Generate random strings of any desired length.
-- Includes uppercase and lowercase letters (A-Z, a-z) as well as digits (0-9).
-- Easy-to-use API with a single function call.
+A lightweight npm package that generates random strings of a specified length. It provides a simple and efficient way to generate random strings containing alphanumeric characters.
 
 ## Installation
 
 You can install the package via npm:
 
-````bash
-npm install random-string-generator
+```bash
+npm install string-genius
 
-## Usage
-
-To use the random-string-generator, first, require the package in your JavaScript file:
-
-```javascript
-const generateRandomString = require('random-string-generator');
-````
-
-Then, call the function with the desired length of the random string as the argument:
-
-```javascript
-const generateRandomString = require("random-string-generator");
-
+```
+import generateRandomString from 'string-genius';
 const randomString = generateRandomString(10);
 console.log(randomString);
 // Output: "8Fg6Hj2kL7"
-```
-# string-genius
+
+The generateRandomString function takes a single argument length which specifies the desired length of the random string.
+
+Whether you need to generate random strings for testing purposes, password generation, or any other use case, the string-genius package provides a convenient solution. Enjoy the flexibility and simplicity of generating random strings with string-genius!
+
+# Contributing
+Contributions are welcome! If you have any ideas, improvements, or bug fixes, please feel free to submit a pull request or open an issue.
