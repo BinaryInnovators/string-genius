@@ -8,16 +8,18 @@ A lightweight npm package that generates random strings of a specified length. I
 
 You can install the package via npm:
 
-````bash
-npm install string-genius
-
 ```bash
-import generateRandomString from 'string-genius';
+npm install string-genius
+```
+
+```javascript
+import generateRandomString from "string-genius";
 const randomString = generateRandomString(10);
 console.log(randomString);
 // Output: "8Fg6Hj2kL7"
-````
+```
 ## Usage
+
 The generateRandomString function takes a single argument length which specifies the desired length of the random string.
 
 Whether you need to generate random strings for testing purposes, password generation, or any other use case, the string-genius package provides a convenient solution. Enjoy the flexibility and simplicity of generating random strings with string-genius!
@@ -25,3 +27,7 @@ Whether you need to generate random strings for testing purposes, password gener
 # Contributing
 
 Contributions are welcome! If you have any ideas, improvements, or bug fixes, please feel free to submit a pull request or open an issue.
+
+```
+
+```
